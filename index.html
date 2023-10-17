@@ -4,17 +4,17 @@
 <style>
 .flex-container {
   display: flex;
-
+  gap: 16px;
 }
 
-.flex-container > div {
+.image-container {
   background-color: #e4e0e0;
-  margin: 15px;
   padding: 10px;
 }
-.flex-container > div1 {
+
+.pokemon-info-container {
   background-color: #1bb7df;
-  margin: 15px;
+  height: fit-content;
   padding: 10px;
   font-size: 50px;
 }
@@ -23,8 +23,14 @@
 <body>
 
 <div class="flex-container">
-  <div><img src="004.png" alt=""></div>
-  <div1>Height - 2' 00" <br> Weight - 18,7 lbs </div>
+  <div class="image-container">
+    <img src="004.png" alt="">
+  </div>
+  
+  <div class="pokemon-info-container">
+    Height - 2' 00"<br>
+    Weight - 18,7 lbs
+  </div>
 </div>
 
 </body>
