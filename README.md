@@ -1,3 +1,1 @@
 # Pokemon
-
-ss
