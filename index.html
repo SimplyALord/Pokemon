@@ -1,37 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<style>
-.flex-container {
-  display: flex;
-  gap: 16px;
-}
-
-.image-container {
-  background-color: #e4e0e0;
-  padding: 10px;
-}
-
-.pokemon-info-container {
-  background-color: #1bb7df;
-  height: fit-content;
-  padding: 10px;
-  font-size: 50px;
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Search Pokémon</title>
 </head>
 <body>
+    <div class="search-container">
+        <input type="text" id="search-input" placeholder="Search Pokémon...">
+        <button onclick="search()">Search</button>
+    </div>
+    <div id="search-results" class="results-container"></div>
 
-<div class="flex-container">
-  <div class="image-container">
-    <img src="004.png" alt="">
-  </div>
-  
-  <div class="pokemon-info-container">
-    Height - 2' 00"<br>
-    Weight - 18,7 lbs
-  </div>
-</div>
-
+    <script src="script.js"></script>
 </body>
 </html>
